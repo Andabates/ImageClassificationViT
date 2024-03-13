@@ -7,7 +7,7 @@ Images are presented to the model as a sequence of fixed-size patches (resolutio
 By pre-training the model, it learns an inner representation of images that can then be used to extract features useful for downstream tasks: if you have a dataset of labeled images for instance, you can train a standard classifier by placing a linear layer on top of the pre-trained encoder. One typically places a linear layer on top of the [CLS] token, as the last hidden state of this token can be seen as a representation of an entire image.
 
 # Resources
-    A blog post on how to Fine-Tune ViT for Image Classification with Hugging Face Transformers
+    A blog post on how to ["**Fine-Tune ViT for Image Classification with Hugging Face Transformers**"](https://huggingface.co/blog/fine-tune-vit)
     A blog post on Image Classification with Hugging Face Transformers and Keras
     A notebook on Fine-tuning for Image Classification with Hugging Face Transformers
     A notebook on how to Fine-tune the Vision Transformer on CIFAR-10 with the Hugging Face Trainer
